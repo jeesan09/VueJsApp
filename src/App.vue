@@ -53,11 +53,11 @@
         <getrequest></getrequest>     
         <secoend></secoend>
         <gcomponent></gcomponent>    
-
+        <form-html></form-html>
        
         <footerhtml></footerhtml>
 
-
+        
 
 
   </div>
@@ -79,6 +79,8 @@ import footerComponent from './components/footerComponent.vue'
 import daynamic_1Component from './components/dynamic_1Comoponent.vue'
 import daynamic_2Component from './components/daynamic_2Component.vue'
 import getRequestComponent from './components/getRequestComponent.vue'
+import formComponent from './components/formComponent.vue'
+
 
 export default {
   name: 'App',
@@ -89,7 +91,8 @@ export default {
    'footerhtml':footerComponent,
    'daynamic1':daynamic_1Component,
    'daynamic2':daynamic_2Component,
-   'getrequest':getRequestComponent
+   'getrequest':getRequestComponent,
+   'form-html': formComponent
   },
   data () {
     return {
