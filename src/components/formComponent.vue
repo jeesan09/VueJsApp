@@ -52,15 +52,15 @@ export default {
       email_User:this.User.userEmail
     }
 
-      console.log(newUser);
+    //  console.log(newUser);
 
-      axios.post('jsonplaceholder.typicode.com/posts',newUser).then((response)=>{
+      axios.post('https://jsonplaceholder.typicode.com/posts',newUser).then((response)=>{
 
         console.log(response);
       })
       .catch((error)=>{
 
-        console.log(response);
+        console.log(error);
       });
     }
   }
