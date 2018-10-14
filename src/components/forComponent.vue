@@ -12,7 +12,7 @@
    <v-expansion-panel popout dark inset expand>
     <v-expansion-panel-content 
       v-for="htval in arrayData"
-      :key="i"
+      
     >
       <div slot="header" >{{htval.name}}</div>
       <v-card>

@@ -1,9 +1,26 @@
 <template>
 
+
+
+  <v-container grid-list-md text-xs-center  >
+    <v-layout row wrap >
+
+      <v-flex xs12>
+        <v-card dark >
+          <v-card-text class="blue lighten-4"><strong>Post Data to Rest Api</strong></v-card-text>
+        </v-card>
+      </v-flex>
+
+
+      <v-flex xs12>
+
+
+
+
   <v-form >
     <v-text-field
       v-model="User.userName"
-      :rules="nameRules"
+     
       :counter="10"
       label="Name"
       required
@@ -11,7 +28,7 @@
     ></v-text-field>
     <v-text-field
       v-model="User.userEmail"
-      :rules="emailRules"
+
       label="E-mail"
       required
      
@@ -21,6 +38,11 @@
   </v-form>
 
 
+
+
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 

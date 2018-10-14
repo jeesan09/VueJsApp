@@ -9,9 +9,10 @@
     </div>
     
 
+        <form-html></form-html>
+         <getrequest></getrequest> 
 
-
-        <for></for>
+     
 
 
 
@@ -45,16 +46,15 @@
         </v-container> 
 
 
-
+           <for></for>
 
 
         
         <component v-bind:is='comp'></component> 
-        <getrequest></getrequest>     
+           
         <secoend></secoend>
         <gcomponent></gcomponent>    
-        <form-html></form-html>
-       
+     
         <footerhtml></footerhtml>
 
         
